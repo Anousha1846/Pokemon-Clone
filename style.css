@@ -1,0 +1,370 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #424242 url(../img/chrome/body_bg.png);
+    font-family: "Flexo-Regular",arial,sans-serif;
+    font-size: 16px;
+    color: #fff;
+    height: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.the-main{
+    background-color: #fffdfe;
+    /* width: 80%; */
+
+}
+.footer-space{
+    width: 100%;
+    height: 7%;
+    background-color: #424242de;
+}
+.space{
+    background-color: black;
+    height: 10px;
+    width: 10px;
+}
+.navbar{
+position: sticky;
+top: 0;
+
+}
+i{
+position: relative;
+left: 9px;
+float: center;
+}
+#itwo{
+    position: relative;
+    left: 22px;
+}
+#ithree{
+    position: relative;
+    left: 46%;
+}
+#ifour{
+    position: relative;
+    left: 47%;
+}
+#ifive{
+    position: relative;
+    left: 43%;
+}
+#isix{
+    position: relative;
+    left: 47%;
+}
+#seven{
+    position: relative;
+    left: 17%;
+}
+nav{
+   
+    border: 1px solid blue;
+    background-color: aqua;
+    /* padding: 15px; */
+    /* width: 80%; */
+    margin: 5px 18px 5px 98px ;
+ /* border: 1px solid rgb(128, 32, 32); */
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: black;
+    background: #ffffff;
+    border-bottom: 2px solid #f7aeae;
+}
+.first-li:hover{
+    background-color: gray;
+   /* font-size: 18px;  */
+   border: 1px solid whitesmoke;
+}
+.second-li:hover{
+    background-color: red;
+    /* font-size: 18px ;    border: 1px solid whitesmoke; */
+
+}
+.third-li:hover{
+    background-color: orange;
+    /* font-size: 18px;  */
+    border: 1px solid whitesmoke;
+
+
+}
+.forth-li:hover{
+    background-color: yellow;
+
+    border: 1px solid whitesmoke;
+
+}
+.fifth-li:hover{
+    background-color: green;
+    /* font-size: 18px; */
+        border: 1px solid whitesmoke;
+
+}
+.sixth-li:hover{
+    background-color: lightblue;
+    /* font-size: 18px; */
+        border: 1px solid rgb(0, 0, 0);
+
+}
+.seventh-li:hover{
+    /* font-size: 18px;  */
+    border: 1px solid whitesmoke;
+   background-color: blue;
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.411);
+}
+h3{
+color: white;
+    font-family: 'Times New Roman', Times, serif;
+font-weight: 900;
+}
+
+.main-one{
+    margin: auto;
+    /* border: 2px solid black;
+    background-color: azure; */
+    box-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: flex-start;
+}
+/* .main-two{
+    border: 2px solid black;
+    background-color: azure;
+ display: flex;
+ flex-direction: column;
+ /* justify-content: space-around; */
+ /* align-items: flex-end; */
+   
+
+.pehla-card{
+    margin: 20px 20px 12px  79px; ;
+    border: 1px solid bisque;
+    position: relative;
+    left: 10%;
+    display: inline;
+    border-radius: 10px;
+    /* float: left; */
+    width: 41%;
+    height: 100%;
+    transition: background-color .4s;
+    background-color: #f590bf;
+/*  */
+}
+.pehla-card:hover{
+    background-color: #99084c;
+    margin: 15px;
+}
+.pehla-card-image{
+width: 100%;
+}
+
+         /* second card */
+.dosra-card{
+    position: absolute;
+    top: 16%;
+    right:20% ;
+    border: 1px solid bisque;
+    display: inline;
+    border-radius: 10px;
+    float: right;
+    width: 21%;
+    height: 49%;
+    transition: background-color .4s;
+    background-color:rgba(143, 34, 143, 0.616);
+} 
+.dosra-card:hover{
+    background-color: rgba(173, 51, 173, 0.822);
+    margin: 15px;}   
+.dosra-card-image{
+    width: 100%;
+}
+
+         /* third card */
+/* .tesra-card{
+    position: relative;
+    left: 20%;
+    border: 1px solid bisque;
+    display: inline;
+    border-radius: 10px;
+    float: right;
+    width: 21%;
+    height: 50%;
+    transition: background-color .4s;
+    background-color: rgba(104, 96, 96, 0.527);
+} 
+.tesra-card:hover{
+    background-color: rgb(104, 96, 96);
+    margin: 15px;}   
+.tesra-card-image{
+    width: 100%;
+} */
+        /* fourth card */
+.chohta-card{
+    position: relative;
+    top: 67%;
+left:10%;
+            margin: 10px 10px 40px 78px;
+            align-self: flex-start;
+            border: 1px solid bisque;
+            display: inline;
+            border-radius: 10px;
+            width: 20%;
+            height: 100%;
+            transition: background-color .4s;
+            background-color:rgba(0, 0, 0, 0.61);
+        }
+.chohta-card:hover{
+            background-color: rgba(0, 0, 0, 0.685);
+            margin: 15px;}   
+.chohta-card-image{
+            width: 100%; }
+              /* fifth card  */
+.panchwa-card{
+    /* align-self: flex-start; */
+                    margin: 13px 20px 49px 67px;
+                    top: 85% ;
+                    position: absolute;
+                     left: 32%;
+                    border: 1px solid bisque;
+                    display: inline;
+                    border-radius: 10px;
+                    /* float: right; */
+                    width: 20%;
+                    height: 39%;
+                    transition: background-color 4s;
+                    background-color: rgba(248, 99, 45, 0.822);
+                }
+.panchwa-card:hover{
+                    background-color: rgb(255, 80, 17);
+                    margin: 15px;}   
+.panchwa-card-image{
+                    width: 100%; }
+                           /*sixth card  */
+.chata-card{
+border: 1px solid bisque;
+position: absolute;
+top: 69%;
+right:20% ;
+/* position: relative;
+left: 5%; */
+display: inline;
+border-radius: 10px;
+/* float: left; */
+width: 21%;
+height: 58%;
+transition: background-color 3s;
+background-color:rgb(162, 221, 68) ;
+                        
+}
+.chata-card:hover{
+background-color:rgb(160, 158, 57);
+margin: 15px;
+}
+.chata-card-image{
+width: 100%;
+}                           
+.main-two{
+    width: 20%;
+    height: 30%;
+}
+
+
+                           /* black images */
+.black-line-images{
+ display: flex;
+ /* justify-content: ; */
+}
+.mini-image-one{
+    background-color: #424242da;  
+    border: 2px solid black;
+    color: pink;
+    width: 250px;
+    height: 300px;
+    
+    }
+.mini-image-two{
+    background-color: #424242da;  
+border: 2px slid rgb(0, 0, 0);   
+ color: pink;
+    width: 250px;
+    height: 300px;
+
+
+}
+.mini-image-three{
+    margin-bottom: 20px;
+    background-color: #424242da;  
+    border: 2px solid black;
+    color: pink;
+    width: 280px;
+    height: 320px;
+   
+}
+.mini-image-four{
+    background-color: #424242da;  
+    border: 2px solid black;
+    color: pink; 
+    width: 250px;
+    height: 300px;
+}
+.mini-image-five{
+    background-color: #424242da;  
+    border: 2px solid black;
+    color: pink;
+    width: 250px;
+    height: 300px;  
+}
+.faltu{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100%;
+}
+.footer-ka-pehla-div{
+    /* height: 40%; */
+     /* display: inline-block; */
+     position: relative;
+     left: 2%;
+     bottom: 40%;
+    width: 50rem;
+    background-color: #e62525;
+    clear: both;
+     display: block;
+    height: 36px;
+    margin-left:10% ;
+    max-width: 1024px;
+    width: 100%;
+    color: white;
+}
+.footer-ka-dosra-div{
+    position: absolute;
+    left: 50%;
+    top: 212%;
+    display: inline-block;
+    width: 50em;
+    /* background-color: #968888; */
+    clear: both;
+    display: block;
+    /* height: 36px; */
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 100%;
+    color: white;
+}
+.footer-one{
+    display: inline-block;
+    /* margin: 10% 20% 10% 20%; */
+    margin: 50px;
+}
+.foot{
+    color: white;
+}
